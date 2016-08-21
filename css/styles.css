@@ -1,0 +1,70 @@
+body {
+	font-size:16px;
+	color: black;
+	background:lightyellow;
+	font-family: sans-serif arial;
+}
+
+/** header **/
+#header-nav {
+	background-color: pink;
+	border-radius: 0;
+	border:0
+}
+.navbar-brand {
+	padding-top: 8px;
+}
+
+.navbar-brand h1 {
+	font-family: arial serif;
+	color: black; 
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: :.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {text-decoration: none;}
+}
+
+#nav-list {margin-top:0px;}
+
+
+#nav-list a {color: bold darkgrey;
+	text-align: center; background-color: lightblue;}
+
+.container { border-radius: 0;
+             border:0px
+             width:90%;}
+
+.container .jumbotron {color: black;
+text-align: center;
+background: none;
+height: 10px;
+padding-top: 0px;
+margin-top:-20px;
+margin-bottom:10px;
+font-family: 
+}
+
+.container .jumbotron h2 {font-size: 1.5em;}
+
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+	height: 1000px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 1px black;
+	overflow: hidden;
+	background: lightgreen;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#Chicken-tile p, #Beef-tile p, #Sushi-tile p{
+	text-align: left;
+	color: bold black;
+    font-size: 0.7em;
+margin:10px;} 
